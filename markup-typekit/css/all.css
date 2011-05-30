@@ -6612,3 +6612,30 @@ table.month .roll a.color3{color:#3662ac;}
 	text-decoration:none !important;
 	text-transform:uppercase;
 }
+/* example for news.html */
+.unit .line-more{
+	display:block;
+	height:5px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+.unit-color1 .line-more{background:#2fa393;}
+.unit-color3 .line-more{background:#a39333;}
+.unit-color4 .line-more{background:#a39333;}
+.unit:hover{
+	cursor:pointer;
+	margin-bottom:4px;
+}
+.unit:hover .line-more{
+	display:block;
+	padding:0 10px 2px;
+	height:1%;
+	text-indent:0;
+}
+.unit .line-more a{
+	float:right;
+	color:#fff;
+	font:700 13px/15px "Trebuchet MS",Helvetica,Arial,sans-serif;
+	text-decoration:none !important;
+	text-transform:uppercase;
+}
