@@ -1,3 +1,121 @@
+/* COLORS:
+---------------------------------------------------- */
+
+.box-color1 .line,
+.unit-color1 .line,
+.unit-color1 .line-more,
+.unit-little-color1 .line-more,
+.main-gallery .box-narrow-color1 .line-more,
+.program-box-color1 .line,
+.unit-add-color1 .line-more,
+.unit-add-color1 .line,
+.unit-add-color1 .register,
+.box-narrow-color1 .line,
+.box-big-color1 .line,
+.unit-little-color1 .line
+{
+  background-color:#2fa393;
+}
+  
+.box-color2 .line,
+.unit-color2 .line,
+.unit-color2 .line-more,
+.unit-little-color2 .line-more,
+.main-gallery .box-narrow-color2 .line-more,
+.program-box-color2 .line,
+.unit-add-color2 .line-more,
+.unit-add-color2 .line,
+.unit-add-color2 .register,
+.box-narrow-color2 .line,
+.box-big-color2 .line,
+.unit-little-color2 .line
+{
+  background-color:#3662ac;
+}
+  
+.box-color3 .line,
+.unit-color3 .line,
+.unit-color3 .line-more,
+.unit-little-color3 .line-more,
+.main-gallery .box-narrow-color3 .line-more,
+.program-box-color3 .line,
+.unit-add-color3 .line-more,
+.unit-add-color3 .line,
+.unit-add-color3 .register,
+.box-narrow-color3 .line,
+.box-big-color3 .line,
+.unit-little-color3 .line
+{
+  background-color:#a39333;
+}
+
+.box-color4 .line,
+.unit-color4 .line,
+.unit-color4 .line-more,
+.unit-little-color4 .line-more,
+.main-gallery .box-narrow-color4 .line-more,
+.program-box-color4 .line,
+.unit-add-color4 .line-more,
+.unit-add-color4 .line,
+.unit-add-color4 .register,
+.box-narrow-color4 .line,
+.box-big-color4 .line,
+.unit-little-color4 .line
+{
+  background-color:#f05033;
+}
+
+.box-color5 .line,
+.unit-color5 .line,
+.unit-color5 .line-more,
+.unit-little-color5 .line-more,
+.main-gallery .box-narrow-color5 .line-more,
+.program-box-color5 .line,
+.unit-add-color5 .line-more,
+.unit-add-color5 .line,
+.unit-add-color5 .register,
+.box-narrow-color5 .line,
+.box-big-color5 .line,
+.unit-little-color5 .line
+{
+  background-color:#915f58;
+}
+.box-color6 .line,
+.unit-color6 .line,
+.unit-color6 .line-more,
+.unit-little-color6 .line-more,
+.main-gallery .box-narrow-color6 .line-more,
+.program-box-color6 .line,
+.unit-add-color6 .line-more,
+.unit-add-color6 .line,
+.unit-add-color6 .register,
+.box-narrow-color6 .line,
+.box-big-color6 .line,
+.unit-little-color6 .line
+{
+  background-color:#86c140;
+}
+
+.box-color7 .line,
+.unit-color7 .line,
+.unit-color7 .line-more,
+.unit-little-color7 .line-more,
+.main-gallery .box-narrow-color7 .line-more,
+.program-box-color7 .line,
+.unit-add-color7 .line-more,
+.unit-add-color7 .line,,
+.unit-add-color7 .register,
+.box-narrow-color7 .line,
+.box-big-color7 .line,
+.unit-little-color7 .line
+{  
+  background-color:#feba12;
+}
+
+
+/* Begin Styles:
+---------------------------------------------------- */
+
 body {
 	margin: 0;
 	font: 400 14px "Trebuchet MS",Helvetica,Arial,sans-serif;
@@ -880,13 +998,7 @@ a.hidden {
 	text-indent:-9999px;
 	overflow:hidden;
 }
-.unit-color1 .line, .unit-color1 .line-more {background:#2fa393;}
-.unit-color2 .line, .unit-color2 .line-more {background:#3662ac;}
-.unit-color3 .line, .unit-color3 .line-more {background:#a39333;}
-.unit-color4 .line, .unit-color4 .line-more {background:#f05033;}
-.unit-color5 .line, .unit-color5 .line-more {background:#915f58;}
-.unit-color6 .line, .unit-color6 .line-more {background:#86c140;}
-.unit-color7 .line, .unit-color7 .line-more {background:#feba12;}
+
 /* unit-frame */
 .unit-frame{
 	padding:9px 19px 7px;
@@ -1046,9 +1158,6 @@ a.hidden {
 	text-indent:-9999px;
 	overflow:hidden;
 }
-.unit-add-color1 .line{background:#2fa393;}
-.unit-add-color3 .line{background:#a39333;}
-.unit-add-color4 .line{background:#f05033;}
 .unit-add-holder{
 	height:1%;
 	overflow:hidden;
@@ -1286,9 +1395,7 @@ a.hidden {
 	text-indent:-9999px;
 	overflow:hidden;
 }
-.unit-add-color1 .register{background:#2fa393 url(../images/bankstreet/bg-register.png) no-repeat;}
-.unit-add-color3 .register{background:#a39333 url(../images/bankstreet/bg-register.png) no-repeat;}
-.unit-add-color4 .register{background:#f05033 url(../images/bankstreet/bg-register.png) no-repeat;}
+.information .register { background-image: url(../images/bankstreet/bg-register.png); background-repeat: no-repeat}
 .information .register-closed{
 	float:right;
 	color:#656669;
@@ -1855,11 +1962,6 @@ a.hidden {
 	margin:0 -9px 0 -10px;
 	height:5px;
 }
-.box-color4 .line{background:#f05033;}
-.box-color1 .line{background:#a39333;}
-.box-color2 .line{background:#86c140;}
-.box-color3 .line{background:#feba12;}
-.box-color5 .line{background:#915f58;}
 /* box .head */
 .box .head{
 	width:215px;
@@ -2701,8 +2803,6 @@ table.month .roll a.color3{color:#3662ac;}
 	text-indent: -9999px;
 	width: 100%;
 }
-.box-narrow-color1 .line{background:#feba12;}
-.box-narrow-color2 .line{background:#a39333;}
 .box-narrow-frame{
 	padding:0 9px 9px;
 	width:167px;
@@ -3209,13 +3309,6 @@ table.month .roll a.color3{color:#3662ac;}
 	text-indent:-9999px;
 	overflow:hidden;
 }
-.main-gallery .box-narrow-color1 .line-more{background:#915f58;}
-.main-gallery .box-narrow-color2 .line-more{background:#f05033;}
-.main-gallery .box-narrow-color3 .line-more{background:#feba12;}
-.main-gallery .box-narrow-color4 .line-more{background:#3662ac;}
-.main-gallery .box-narrow-color5 .line-more{background:#a39333;}
-.main-gallery .box-narrow-color6 .line-more{background:#2fa393;}
-.main-gallery .box-narrow-color7 .line-more{background:#86c140;}
 .main-gallery .box-narrow:hover .line-more{
 	display:block;
 	padding:0 10px 2px;
@@ -3697,10 +3790,6 @@ table.month .roll a.color3{color:#3662ac;}
 	text-indent: -9999px;
 	width: 100%;
 }
-.unit-little-color1 .line{background:#a39333;}
-.unit-little-color2 .line{background:#f05033;}
-.unit-little-color3 .line{background:#feba12;}
-.unit-little-color4 .line{background:#915f58;}
 /* unit-add .data */
 .unit-little .data{
 	height:1%;
@@ -4059,10 +4148,7 @@ table.month .roll a.color3{color:#3662ac;}
 	text-indent: -9999px;
 	width:100%;
 }
-.box-big-color1 .line {background:#feba12;}
-.box-big-color2 .line {background:#915f58;}
-.box-big-color3 .line {background:#f05033;}
-.box-big-color4 .line {background:#a39333;}
+
 .sidebar-tab{width:100%;}
 .box-big .word{
 	color:#656669;
@@ -4301,9 +4387,6 @@ table.month .roll a.color3{color:#3662ac;}
 	padding:12px 21px 12px 20px;
 	min-height:220px;
 }
-.program-box-color1 .line {background:#3662ac;}
-.program-box-color2 .line {background:#2fa393;}
-.program-box-color3 .line {background:#86c140;}
 .program-box .line{
 	display:block;
 	height:5px;
@@ -4924,9 +5007,6 @@ table.month .roll a.color3{color:#3662ac;}
 	font:700 13px/15px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	text-indent:9999px;
 }
-.unit-little-color3 .line-more{background:#915f58;}
-.unit-little-color2 .line-more{background:#feba12;}
-.unit-little-color1 .line-more{background:#a39333;}
 .unit-hover:hover .line-more{
 	display:block;
 	padding:0 10px 2px;
@@ -6595,10 +6675,6 @@ table.month .roll a.color3{color:#3662ac;}
 	text-indent:-9999px;
 	overflow:hidden;
 }
-.unit-add-color1 .line-more{background:#2fa393;}
-.unit-add-color2 .line-more{background:#3662AC;}
-.unit-add-color3 .line-more{background:#a39333;}
-.unit-add-color4 .line-more{background:#F05033;}
 .unit-add:hover{
 	cursor:pointer;
 	margin-bottom:7px;
