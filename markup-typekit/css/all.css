@@ -12,7 +12,8 @@
 .unit-add-color1 .register,
 .box-narrow-color1 .line,
 .box-big-color1 .line,
-.unit-little-color1 .line
+.unit-little-color1 .line,
+.intro-gallery-color1 .text-gallery
 {
   background-color:#2fa393;
 }
@@ -28,7 +29,8 @@
 .unit-add-color2 .register,
 .box-narrow-color2 .line,
 .box-big-color2 .line,
-.unit-little-color2 .line
+.unit-little-color2 .line,
+.intro-gallery-color2 .text-gallery
 {
   background-color:#3662ac;
 }
@@ -44,7 +46,8 @@
 .unit-add-color3 .register,
 .box-narrow-color3 .line,
 .box-big-color3 .line,
-.unit-little-color3 .line
+.unit-little-color3 .line,
+.intro-gallery-color3 .text-gallery
 {
   background-color:#a39333;
 }
@@ -60,7 +63,8 @@
 .unit-add-color4 .register,
 .box-narrow-color4 .line,
 .box-big-color4 .line,
-.unit-little-color4 .line
+.unit-little-color4 .line,
+.intro-gallery-color4 .text-gallery
 {
   background-color:#f05033;
 }
@@ -76,7 +80,8 @@
 .unit-add-color5 .register,
 .box-narrow-color5 .line,
 .box-big-color5 .line,
-.unit-little-color5 .line
+.unit-little-color5 .line,
+.intro-gallery-color5 .text-gallery
 {
   background-color:#915f58;
 }
@@ -91,7 +96,8 @@
 .unit-add-color6 .register,
 .box-narrow-color6 .line,
 .box-big-color6 .line,
-.unit-little-color6 .line
+.unit-little-color6 .line,
+.intro-gallery-color6 .text-gallery
 {
   background-color:#86c140;
 }
@@ -103,11 +109,12 @@
 .main-gallery .box-narrow-color7 .line-more,
 .program-box-color7 .line,
 .unit-add-color7 .line-more,
-.unit-add-color7 .line,,
+.unit-add-color7 .line,
 .unit-add-color7 .register,
 .box-narrow-color7 .line,
 .box-big-color7 .line,
-.unit-little-color7 .line
+.unit-little-color7 .line,
+.intro-gallery-color7 .text-gallery
 {  
   background-color:#feba12;
 }
@@ -3111,13 +3118,11 @@ table.month .roll a.color3{color:#3662ac;}
 .intro-gallery-holder ul img{display:block;}
 .intro-gallery-holder .text-gallery{
 	position:absolute;	bottom:10px;
-	color:#fff;
-	background:#86c140;	left:0;
+	color:#fff;	left:0;
 	width:476px;
 	padding:11px 10px 48px;
 	font:700 16px/18px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
-.intro-gallery-color3 .text-gallery{background:#feba12;}
 .intro-switch {
 	margin:0;
 	padding:0;
