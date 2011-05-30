@@ -134,7 +134,7 @@ a.hidden {
 	width:67px;
 	height:21px;
 	border:0;
-	padding:0 0 4px;
+	padding:1px 0 4px;
 	margin:0;
 	font: 400 14px/20px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	cursor:pointer;
@@ -781,8 +781,11 @@ a.hidden {
 	font:400 16px/26px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 /* unit */
-.unit{	width:100%;
-	margin-bottom:16px;}.unit-t{
+.unit,
+.unit.sttc:hover{	width:100%;
+	margin-bottom:16px;
+	padding-bottom: 5px;
+	cursor: inherit;}.unit-t{
 	text-indent:-9999px;
 	overflow:hidden;	background:url(../images/bankstreet/bg-unit.png) no-repeat;	height:5px;
 	font-size:0;
@@ -877,13 +880,13 @@ a.hidden {
 	text-indent:-9999px;
 	overflow:hidden;
 }
-.unit-color1 .line{background:#2fa393;}
-.unit-color2 .line{background:#3662ac;}
-.unit-color3 .line{background:#a39333;}
-.unit-color4 .line{background:#f05033;}
-.unit-color5 .line{background:#915f58;}
-.unit-color6 .line{background:#86c140;}
-.unit-color7 .line{background:#feba12;}
+.unit-color1 .line, .unit-color1 .line-more {background:#2fa393;}
+.unit-color2 .line, .unit-color2 .line-more {background:#3662ac;}
+.unit-color3 .line, .unit-color3 .line-more {background:#a39333;}
+.unit-color4 .line, .unit-color4 .line-more {background:#f05033;}
+.unit-color5 .line, .unit-color5 .line-more {background:#915f58;}
+.unit-color6 .line, .unit-color6 .line-more {background:#86c140;}
+.unit-color7 .line, .unit-color7 .line-more {background:#feba12;}
 /* unit-frame */
 .unit-frame{
 	padding:9px 19px 7px;
@@ -944,15 +947,15 @@ a.hidden {
 	padding-left:0;
 	background:none !important;
 }
-.unit-color3 .mark{background:#eae6d0;}
-.unit-color2 .mark{background:#d7e0ee;}
-.unit-color4 .mark{background:#fcded9;}
 .unit-color1 .mark{background:#d5ede9;}
+.unit-color2 .mark{background:#d7e0ee;}
+.unit-color3 .mark{background:#eae6d0;}
+.unit-color4 .mark{background:#fcded9;}
 .unit-color7 .mark{background:#ffefc8;}
-.unit-color3 h2 .mark{background:#eae6d0;}
-.unit-color2 h2 .mark{background:#d7e0ee;}
-.unit-color4 h2 .mark{background:#fcded9;}
 .unit-color1 h2 .mark{background:#d5ede9;}
+.unit-color2 h2 .mark{background:#d7e0ee;}
+.unit-color3 h2 .mark{background:#eae6d0;}
+.unit-color4 h2 .mark{background:#fcded9;}
 .unit-color7 h2 .mark{background:#ffefc8;}
 /* more */
 .more{
@@ -977,13 +980,14 @@ a.hidden {
 .more a em{
 	float:left;
 	background:url(../images/bankstreet/bg-link-all.png) no-repeat 0 -50px;
-	padding:1px 47px 2px 52px;
+	padding:2px 47px 1px 52px;
 }
 .more a:hover em{text-decoration:underline;}
 /* unit-add */
-.unit-add{
+.unit-add, .unit-add.sttc:hover {
 	width:100%;
 	margin-bottom:19px;
+	padding-bottom: 5px;
 }
 .unit-add-t{
 	text-indent:-9999px;
@@ -1433,7 +1437,7 @@ a.hidden {
 	overflow:hidden;
 	background:url(../images/bankstreet/bg-link-calenlar.png) no-repeat;
 	width:22px;
-	height:22px;
+	height:21px;
 	margin-top:3px;
 }
 .switch-frame .link-next{
@@ -1526,7 +1530,7 @@ a.hidden {
 }
 .comment-post .reply span{
 	float:left;
-	padding:1px 12px 3px 17px;
+	padding:2px 12px 2px 17px;
 	background:url(../images/bankstreet/bg-link-all.png) no-repeat 0 -50px;
 }
 .comment-post .reply:hover span{text-decoration:underline;}
@@ -1609,14 +1613,14 @@ a.hidden {
 }
 .comment-form .btn-row input{
 	float:right;
-	padding:0 0 4px;
+	padding:1px 0 4px;
 	margin:0 0 0 10px;
 	border:0;
 	width:107px;
-	height:22px;
+	height:21px;
 	cursor:pointer;
 	font:italic 700 16px/22px "Trebuchet MS",Helvetica,Arial,sans-serif;
-	background:url(../images/bankstreet/btn-comment.png) no-repeat 0 1px;
+	background:url(../images/bankstreet/btn-comment.png) no-repeat;
 	color:#f5f5f5;
 }
 /* event-nav */
@@ -2978,7 +2982,6 @@ table.month .roll a.color3{color:#3662ac;}
 	background:#a39333;
 	margin:0;	padding:3px 39px 11px 21px;	list-style:none;
 	font:700 18px/22px "Trebuchet MS",Helvetica,Arial,sans-serif;
-	letter-spacing:-1px;
 }
 .intro .ability li{
 	background:url(../images/bankstreet/bullet6.png) no-repeat 0 12px;
@@ -4803,9 +4806,9 @@ table.month .roll a.color3{color:#3662ac;}
 	border:0;
 	font:italic 700 16px/22px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	cursor:pointer;
-	background:url(../images/bankstreet/btn-comment.png) no-repeat 0 1px;
+	background:url(../images/bankstreet/btn-comment.png) no-repeat;
 	width:107px;
-	height:22px;
+	height:21px;
 	color:#f5f5f5;
 }
 .unit-form .row a{
@@ -6593,8 +6596,9 @@ table.month .roll a.color3{color:#3662ac;}
 	overflow:hidden;
 }
 .unit-add-color1 .line-more{background:#2fa393;}
+.unit-add-color2 .line-more{background:#3662AC;}
 .unit-add-color3 .line-more{background:#a39333;}
-.unit-add-color4 .line-more{background:#a39333;}
+.unit-add-color4 .line-more{background:#F05033;}
 .unit-add:hover{
 	cursor:pointer;
 	margin-bottom:7px;
@@ -6619,9 +6623,6 @@ table.month .roll a.color3{color:#3662ac;}
 	text-indent:-9999px;
 	overflow:hidden;
 }
-.unit-color1 .line-more{background:#2fa393;}
-.unit-color3 .line-more{background:#a39333;}
-.unit-color4 .line-more{background:#a39333;}
 .unit:hover{
 	cursor:pointer;
 	margin-bottom:4px;
@@ -6638,4 +6639,67 @@ table.month .roll a.color3{color:#3662ac;}
 	font:700 13px/15px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	text-decoration:none !important;
 	text-transform:uppercase;
+}
+/* additions by Mushon
+--------------------------------------------------------------------------- */
+
+/* Standard hover: */
+.header-form .submit-login:hover,
+.filter-form .btn-box .submit:hover,
+.filter-form .btn-box .filter-submit:hover,
+.filter-form .row .submit:hover,
+.comment-form .btn-row input:hover,
+.unit-form .submit:hover,
+.content-form .btn-go:hover{
+  background-position: bottom left;
+  text-decoration: none;
+}
+
+/* Arrows hover: */
+.calendar .link-prev:hover,
+.main-switch ul a.link-prev:hover,
+a.link-prev:hover{
+  background-position: top right;
+}
+.calendar .link-next:hover,
+.main-switch ul a.link-next:hover,
+a.link-next:hover{
+  background-position: bottom right;
+}
+.box .head .link:hover{
+  background-position: top right;
+}
+
+/* Arrowed nav hover: */
+.event-nav li.upcoming a:hover span{  background-position: 0 -150px; text-decoration: none }
+.event-nav li.upcoming a:hover     {  background-position: right -374px; }
+
+.event-nav li.archived a:hover span{  background-position: 0 -350px; text-decoration: none }
+.event-nav li.archived a:hover     {  background-position: right -174px; }
+
+/* standard sliding doors hover */
+.more a:hover em,
+.main-switch ul a.more:hover span,
+.main-switch ul a.more-event:hover span,
+.navigation-holder .support:hover span,
+.comment-post .reply:hover span,
+.box-big .meet-link:hover span {
+  background-position: 0 -150px;
+  text-decoration: none
+}
+.more a:hover,
+.main-switch ul a.more:hover,
+.main-switch ul a.more-event:hover,
+.navigation-holder .support:hover,
+.comment-post .reply:hover,
+.box-big .meet-link:hover{
+  background-position: right -174px;
+}
+
+/* news-list hover */
+.box-big .news-list a:hover .rubric{
+  color: #F05033;
+}
+.box-big .news-list a:hover{
+  color: #444444;
 }
