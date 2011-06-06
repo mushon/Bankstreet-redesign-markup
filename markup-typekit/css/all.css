@@ -1,128 +1,3 @@
-/* COLORS:
----------------------------------------------------- */
-
-.box-color1 .line,
-.unit-color1 .line,
-.unit-color1 .line-more,
-.unit-little-color1 .line-more,
-.main-gallery .box-narrow-color1 .line-more,
-.program-box-color1 .line,
-.unit-add-color1 .line-more,
-.unit-add-color1 .line,
-.unit-add-color1 .register,
-.box-narrow-color1 .line,
-.box-big-color1 .line,
-.unit-little-color1 .line,
-.intro-gallery-color1 .text-gallery
-{
-  background-color:#2fa393;
-}
-  
-.box-color2 .line,
-.unit-color2 .line,
-.unit-color2 .line-more,
-.unit-little-color2 .line-more,
-.main-gallery .box-narrow-color2 .line-more,
-.program-box-color2 .line,
-.unit-add-color2 .line-more,
-.unit-add-color2 .line,
-.unit-add-color2 .register,
-.box-narrow-color2 .line,
-.box-big-color2 .line,
-.unit-little-color2 .line,
-.intro-gallery-color2 .text-gallery
-{
-  background-color:#3662ac;
-}
-  
-.box-color3 .line,
-.unit-color3 .line,
-.unit-color3 .line-more,
-.unit-little-color3 .line-more,
-.main-gallery .box-narrow-color3 .line-more,
-.program-box-color3 .line,
-.unit-add-color3 .line-more,
-.unit-add-color3 .line,
-.unit-add-color3 .register,
-.box-narrow-color3 .line,
-.box-big-color3 .line,
-.unit-little-color3 .line,
-.intro-gallery-color3 .text-gallery
-{
-  background-color:#a39333;
-}
-
-.box-color4 .line,
-.unit-color4 .line,
-.unit-color4 .line-more,
-.unit-little-color4 .line-more,
-.main-gallery .box-narrow-color4 .line-more,
-.program-box-color4 .line,
-.unit-add-color4 .line-more,
-.unit-add-color4 .line,
-.unit-add-color4 .register,
-.box-narrow-color4 .line,
-.box-big-color4 .line,
-.unit-little-color4 .line,
-.intro-gallery-color4 .text-gallery
-{
-  background-color:#f05033;
-}
-
-.box-color5 .line,
-.unit-color5 .line,
-.unit-color5 .line-more,
-.unit-little-color5 .line-more,
-.main-gallery .box-narrow-color5 .line-more,
-.program-box-color5 .line,
-.unit-add-color5 .line-more,
-.unit-add-color5 .line,
-.unit-add-color5 .register,
-.box-narrow-color5 .line,
-.box-big-color5 .line,
-.unit-little-color5 .line,
-.intro-gallery-color5 .text-gallery
-{
-  background-color:#915f58;
-}
-.box-color6 .line,
-.unit-color6 .line,
-.unit-color6 .line-more,
-.unit-little-color6 .line-more,
-.main-gallery .box-narrow-color6 .line-more,
-.program-box-color6 .line,
-.unit-add-color6 .line-more,
-.unit-add-color6 .line,
-.unit-add-color6 .register,
-.box-narrow-color6 .line,
-.box-big-color6 .line,
-.unit-little-color6 .line,
-.intro-gallery-color6 .text-gallery
-{
-  background-color:#86c140;
-}
-
-.box-color7 .line,
-.unit-color7 .line,
-.unit-color7 .line-more,
-.unit-little-color7 .line-more,
-.main-gallery .box-narrow-color7 .line-more,
-.program-box-color7 .line,
-.unit-add-color7 .line-more,
-.unit-add-color7 .line,
-.unit-add-color7 .register,
-.box-narrow-color7 .line,
-.box-big-color7 .line,
-.unit-little-color7 .line,
-.intro-gallery-color7 .text-gallery
-{  
-  background-color:#feba12;
-}
-
-
-/* Begin Styles:
----------------------------------------------------- */
-
 body {
 	margin: 0;
 	font: 400 14px "Trebuchet MS",Helvetica,Arial,sans-serif;
@@ -6784,3 +6659,104 @@ a.link-next:hover{
 .box-big .news-list a:hover{
   color: #444444;
 }
+/* COLORS:
+---------------------------------------------------- */
+
+.box-color1 .line,
+.unit-color1 .line,
+.unit-color1 .line-more,
+.unit-little-color1 .line-more,
+.main-gallery .box-narrow-color1 .line-more,
+.program-box-color1 .line,
+.unit-add-color1 .line-more,
+.unit-add-color1 .line,
+.unit-add-color1 .register,
+.box-narrow-color1 .line,
+.box-big-color1 .line,
+.unit-little-color1 .line,
+.intro-gallery-color1 .text-gallery {background-color:#2fa393;}
+
+.box-color2 .line,
+.unit-color2 .line,
+.unit-color2 .line-more,
+.unit-little-color2 .line-more,
+.main-gallery .box-narrow-color2 .line-more,
+.program-box-color2 .line,
+.unit-add-color2 .line-more,
+.unit-add-color2 .line,
+.unit-add-color2 .register,
+.box-narrow-color2 .line,
+.box-big-color2 .line,
+.unit-little-color2 .line,
+.intro-gallery-color2 .text-gallery {background-color:#3662ac;}
+
+.box-color3 .line,
+.unit-color3 .line,
+.unit-color3 .line-more,
+.unit-little-color3 .line-more,
+.main-gallery .box-narrow-color3 .line-more,
+.program-box-color3 .line,
+.unit-add-color3 .line-more,
+.unit-add-color3 .line,
+.unit-add-color3 .register,
+.box-narrow-color3 .line,
+.box-big-color3 .line,
+.unit-little-color3 .line,
+.intro-gallery-color3 .text-gallery {background-color:#a39333;}
+
+.box-color4 .line,
+.unit-color4 .line,
+.unit-color4 .line-more,
+.unit-little-color4 .line-more,
+.main-gallery .box-narrow-color4 .line-more,
+.program-box-color4 .line,
+.unit-add-color4 .line-more,
+.unit-add-color4 .line,
+.unit-add-color4 .register,
+.box-narrow-color4 .line,
+.box-big-color4 .line,
+.unit-little-color4 .line,
+.intro-gallery-color4 .text-gallery {background-color:#f05033;}
+
+.box-color5 .line,
+.unit-color5 .line,
+.unit-color5 .line-more,
+.unit-little-color5 .line-more,
+.main-gallery .box-narrow-color5 .line-more,
+.program-box-color5 .line,
+.unit-add-color5 .line-more,
+.unit-add-color5 .line,
+.unit-add-color5 .register,
+.box-narrow-color5 .line,
+.box-big-color5 .line,
+.unit-little-color5 .line,
+.intro-gallery-color5 .text-gallery {background-color:#915f58;}
+
+.box-color6 .line,
+.unit-color6 .line,
+.unit-color6 .line-more,
+.unit-little-color6 .line-more,
+.main-gallery .box-narrow-color6 .line-more,
+.program-box-color6 .line,
+.unit-add-color6 .line-more,
+.unit-add-color6 .line,
+.unit-add-color6 .register,
+.box-narrow-color6 .line,
+.box-big-color6 .line,
+.unit-little-color6 .line,
+.intro-gallery-color6 .text-gallery {background-color:#86c140;}
+
+.box-color7 .line,
+.unit-color7 .line,
+.unit-color7 .line-more,
+.unit-little-color7 .line-more,
+.main-gallery .box-narrow-color7 .line-more,
+.program-box-color7 .line,
+.unit-add-color7 .line-more,
+.unit-add-color7 .line,
+.unit-add-color7 .register,
+.box-narrow-color7 .line,
+.box-big-color7 .line,
+.unit-little-color7 .line,
+.intro-gallery-color7 .text-gallery {background-color:#feba12;}
+
