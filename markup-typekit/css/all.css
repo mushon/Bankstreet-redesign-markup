@@ -563,7 +563,7 @@ a.hidden {
 	width:696px;
 }
 #content h2.content-title {
-	color: #444547;
+	color: #505053;
 	font:italic 900 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	margin:-4px 0 15px;
 }
@@ -1660,7 +1660,7 @@ a.hidden {
 }
 #content .unit-wrap h2{
 	margin:0 0 14px;
-	color:#444547;
+	color:#505053;
 	font:italic 900 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .future-opportunities{
@@ -3628,7 +3628,7 @@ table.month .roll a.color3{color:#3662ac;}
 }
 .unit-little .word h2{
 	margin:0 0 11px;
-	color:#444547;
+	color:#505053;
 	font:italic 900 20px/22px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .unit-little .word-holder{
@@ -3759,7 +3759,7 @@ table.month .roll a.color3{color:#3662ac;}
 }
 .unit-holder .position h2{
 	margin:0 0 10px;
-	color:#444547;
+	color:#505053;
 	font:italic 900 20px/25px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .unit-holder .position p{margin:0 0 19px;}
@@ -3805,7 +3805,7 @@ table.month .roll a.color3{color:#3662ac;}
 }
 .contact-info h3{
 	margin:0 0 14px;
-	color:#444547;
+	color:#505053;
 	font:italic 900 20px/22px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .contact-boxes{
@@ -4294,7 +4294,7 @@ table.month .roll a.color3{color:#3662ac;}
 	margin:0 0 5px;
 	padding:0 0 16px;
 	border-bottom:2px solid #d7d7d9;
-	color:#444547;
+	color:#505053;
 	font:italic 900 20px/22px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .program-box .text{
@@ -4589,7 +4589,7 @@ table.month .roll a.color3{color:#3662ac;}
 .unit-recital .link-box h3{
 	margin:0 0 11px;
 	padding:0;
-	color:#444547;
+	color:#505053;
 	font:italic 900 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .unit-recital .link-box ul{
@@ -4613,7 +4613,7 @@ table.month .roll a.color3{color:#3662ac;}
 .unit-recital h2{
 	margin:0;
 	padding:3px 0 10px;
-	color:#444547;
+	color:#505053;
 	font:italic 900 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .unit-recital h3{
@@ -4821,7 +4821,7 @@ table.month .roll a.color3{color:#3662ac;}
 }
 .unit-tab .quotation-box h3{
 	margin:0 0 11px;
-	color:#444547;
+	color:#505053;
 	font:italic 900 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .unit-comment{
@@ -4903,7 +4903,7 @@ table.month .roll a.color3{color:#3662ac;}
 .unit-servic h3{
 	margin:0 0 16px;
 	padding:0 0 15px;
-	color:#444547;
+	color:#505053;
 	font:italic 900 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	border-bottom:2px solid #d7d7d9;
 }
@@ -5462,7 +5462,7 @@ table.month .roll a.color3{color:#3662ac;}
 }
 .victor-holder h3{
 	margin:0 0 19px 2px;
-	color:#444547;
+	color:#505053;
 	font:italic 900 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .victor-holder p{margin:-6px 0 21px;}
@@ -5538,10 +5538,17 @@ table.month .roll a.color3{color:#3662ac;}
 	font:italic 700 22px/26px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .intro-roll span{display:block;}
-.intro-roll a:hover,
 .intro-roll li.active a{
 	background:#f05033;
 	color:#fff;
+	text-decoration:none !important;
+}
+.intro-roll a:hover{
+	color:#393b3c;
+	text-decoration:none !important;
+}
+.intro-roll a:hover strong{
+	color:#f05033;
 	text-decoration:none !important;
 }
 /* intro-form */
@@ -5657,7 +5664,7 @@ table.month .roll a.color3{color:#3662ac;}
 .box-donation h3{
 	margin:0 0 15px;
 	font:italic 900 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
-	color:#444547;
+	color:#505053;
 }
 .donation-list{
 	margin:0;
@@ -5680,7 +5687,7 @@ table.month .roll a.color3{color:#3662ac;}
 	margin:0;
 	padding:0 0 5px;
 	float:left;
-	color:#444547;
+	color:#505053;
 	font:italic 900 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .unit-topic .same-sorm{
@@ -5976,7 +5983,7 @@ table.month .roll a.color3{color:#3662ac;}
 	margin:0;
 	padding:17px 0 15px 2px;
 	font:italic 900 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
-	color:#444547;
+	color:#505053;
 }
 /* hour-box */
 .hour-box{
@@ -6078,7 +6085,7 @@ table.month .roll a.color3{color:#3662ac;}
 }
 .permit-box .link-box h2{
 	margin:0 0 9px;
-	color:#444547;
+	color:#505053;
 	font:italic 900 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .permit-box .link-box ul{
@@ -6629,8 +6636,10 @@ a.link-next:hover{
 .event-nav li.upcoming a:hover span{  background-position: 0 -150px; text-decoration: none }
 .event-nav li.upcoming a:hover     {  background-position: right -374px; }
 
-.event-nav li.archived a:hover span{  background-position: 0 -350px; text-decoration: none }
-.event-nav li.archived a:hover     {  background-position: right -174px; }
+.event-nav li.archived a:hover span,
+.event-nav li.load-more a:hover span{  background-position: 0 -350px; text-decoration: none }
+.event-nav li.archived a:hover,
+.event-nav li.load-more a:hover     {  background-position: right -174px; }
 
 /* standard sliding doors hover */
 .more a:hover em,
