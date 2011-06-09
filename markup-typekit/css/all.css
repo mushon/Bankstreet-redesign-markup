@@ -63,7 +63,7 @@ a.hidden {
 .slide-holder .text{
 	height:1%;
 	overflow:hidden;
-	color:#f2f2f2;
+	color:#f5f5f5;
 	padding:28px 0 0 5px;
 }
 .slide-holder .text strong{
@@ -87,7 +87,7 @@ a.hidden {
 }
 .header-form .bg-box{
 	padding:29px 15px 11px 16px;
-	background:#ebebeb url(../images/bankstreet/bg-head-form-line.gif) repeat-x 0 100%;
+	background:#e6e6e6 url(../images/bankstreet/bg-head-form-line.gif) repeat-x 0 100%;
 }
 .header-form .text-input{
 	display:block;
@@ -176,7 +176,7 @@ a.hidden {
 /* header-top */
 .header-top{
 	width:100%;
-	border-bottom:1px solid #e1e1e1;
+	border-bottom:1px solid #e6e6e6;
 	background:#fff;
 	position:relative;
 	z-index:51;
@@ -229,7 +229,7 @@ a.hidden {
 }
 .menu a{cursor:pointer;}
 .menu a.support{
-	color:#f04e23;
+	color:#f05033;
 	font:400 14px/14px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	float:left;
 	padding:0 0 0 3px;
@@ -248,7 +248,7 @@ a.hidden {
 .menu .links{float:left;}
 .menu .links:hover{position:relative;}
 .menu .links a{
-	color:#959596;
+	color:#939598;
 	font:400 14px/14px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	float:left;
 	padding:0 0 0 3px;
@@ -261,7 +261,7 @@ a.hidden {
 }
 .menu .links:hover a{
 	margin:4px -5px 0 -8px;
-	color:#444;
+	color:#444547;
 	text-decoration:none;
 	background:url(../images/bankstreet/bg-links-header.gif) no-repeat;
 }
@@ -300,7 +300,7 @@ a.hidden {
 .menu .drop ul a{
 	padding:8px 10px 7px;
 	margin:0 !important;
-	color:#3a3a3c;
+	color:#393b3c;
 	background:none !important;
 	float:left;
 	width:178px;
@@ -312,7 +312,7 @@ a.hidden {
 }
 .menu .login{float:left;}
 .menu .login a{
-	color:#959596;
+	color:#939598;
 	font-size:14px;
 	line-height:14px;
 	float:left;
@@ -325,7 +325,7 @@ a.hidden {
 .menu .login a.active,
 .menu .login a:hover{
 	margin:0 -5px 0 -10px;
-	color:#4a4b4e;
+	color:#444547;
 	text-decoration:none;
 	background:url(../images/bankstreet/bg-login.gif) no-repeat 0 100%;
 	position:relative;
@@ -435,12 +435,12 @@ a.hidden {
 }
 #nav a{
 	float:left;
-	color:#3a3a3c;
+	color:#393b3c;
 	cursor:pointer;
 	padding:0 0 0 3px;
 }
 #nav a:hover{
-	color:#47474a;
+	color:#444547;
 	text-decoration:none;
 }
 #nav a span{
@@ -511,7 +511,7 @@ a.hidden {
 #nav .drop ul a{
 	padding:4px 10px 5px;
 	margin:0 !important;
-	color:#3a3a3c;
+	color:#393b3c;
 	background:none !important;
 	float:left;
 	width:178px;
@@ -665,7 +665,7 @@ a.hidden {
 }
 .filter-form .check-box label{
 	float:left;
-	color:#6d6e71;
+	color:#656669;
 	font:400 13px/15px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .filter-form .checkbox{
@@ -1110,13 +1110,13 @@ a.hidden {
 .unit-add .image img{display:block;}
 .unit-add .image span{
 	font:400 13px/16px "Trebuchet MS",Helvetica,Arial,sans-serif;
-	color:#3a3a3c;
+	color:#393b3c;
 	display:block;
 	padding:4px 0 0 4px;
 }
 .unit-add .data p{margin:0 0 10px;}
 .unit-add .data p a{
-	color:#444;
+	color:#444547;
 	text-decoration:underline;
 }
 .unit-add .data p a:hover{text-decoration:none;}
@@ -1245,7 +1245,7 @@ a.hidden {
 	padding:1px 0 4px;
 }
 .information-holder span a{
-	color:#444;
+	color:#444547;
 	text-decoration:underline;
 }
 .information-holder span a:hover{
@@ -1257,7 +1257,7 @@ a.hidden {
 	height:1%;
 }
 .information .address-box a{
-	color:#444;
+	color:#444547;
 	text-decoration:underline;
 	float:left;
 	line-height:18px;
@@ -1358,7 +1358,7 @@ a.hidden {
 	text-decoration:none;
 }
 .tabset .tab:hover,
-.tabset .active {color:#444;}
+.tabset .active {color:#444547;}
 /* doc-box */
 .doc-box{
 	border-top:2px solid #d7d7d9;
@@ -1413,7 +1413,7 @@ a.hidden {
 	padding:7px 9px 9px 11px;
 	background:#eef0f2;
 	text-align:center;
-	color:#3a3a3c;
+	color:#393b3c;
 	font:italic 400 16px/25px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .switch-frame .link-prev,
@@ -1447,7 +1447,7 @@ a.hidden {
 }
 .gallery-frame ul img{
 	vertical-align:middle;
-	border:1px solid #ccc;
+	border:1px solid #c7c8cb;
 	padding:4px;
 }
 /* comment-block */
@@ -1544,7 +1544,7 @@ a.hidden {
 }
 .new-comment .image span{
 	display:block;
-	color:#4a4b4e;
+	color:#444547;
 	font:italic 400 14px/16px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 /* comment-form */
@@ -1590,7 +1590,7 @@ a.hidden {
 	margin:0 10px 0 0;
 }
 .comment-form .text {
-	float:left;	background:none;	border:none;	outline:none;	margin:0;	padding:0;	width:100%;	color:#7d7f83;
+	float:left;	background:none;	border:none;	outline:none;	margin:0;	padding:0;	width:100%;	color:#656669;
 	font:italic 400 14px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .comment-form .btn-row{
@@ -1777,7 +1777,7 @@ a.hidden {
 	margin-top:2px;
 }
 .numb-frame span{
-	color:#3a3a3c;
+	color:#393b3c;
 	font:italic 400 16px/23px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .photo-holder{
@@ -1796,7 +1796,7 @@ a.hidden {
 }
 .photo-holder li img{
 	vertical-align:middle;
-	border:1px solid #ccc;
+	border:1px solid #c7c8cb;
 	padding:3px;
 }
 /* sidebar */
@@ -1928,6 +1928,10 @@ a.hidden {
 	text-decoration:none;
 	cursor:pointer;
 	padding:3px 0 0;
+}
+.box .news-list a:hover{
+	color:#393b3c;
+	text-decoration: underline;
 }
 .box .title{
 	width:215px;
@@ -2559,7 +2563,7 @@ table.month .roll a.color3{color:#3662ac;}
 	text-indent: -9999px;
 	width: 100%;
 }
-.adults-3 .line{background:#915f62;}
+.adults-3 .line{background:#915f58;}
 .unit-wide-holder{
 	height:1%;
 	padding:0 19px 5px 20px;
@@ -2601,7 +2605,7 @@ table.month .roll a.color3{color:#3662ac;}
 	padding:0 0 2px 17px;
 }
 .unit-wide .roll a{
-	color:#444;
+	color:#444547;
 	text-decoration:underline;
 }
 .unit-wide .roll a:hover{text-decoration:none;}
@@ -2619,7 +2623,7 @@ table.month .roll a.color3{color:#3662ac;}
 	font:italic 700 17px/20px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .unit-wide .info-holder span{display:block;}
-.unit-wide .info-holder a{color:#f05133;}
+.unit-wide .info-holder a{color:#f05033;}
 .unit-wide .info{padding-bottom:18px;}
 .unit-wide .info-contact{
 	margin:0;
@@ -2710,10 +2714,10 @@ table.month .roll a.color3{color:#3662ac;}
 }
 .story-box h4{
 	margin:0;
-	color:#3a3a3c;
+	color:#393b3c;
 	font:900 15px/18px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
-.story-box h4 a{color:#3a3a3c;}
+.story-box h4 a{color:#393b3c;}
 .story-box p{
 	margin:0;
 	font:400 14px/18px "Trebuchet MS",Helvetica,Arial,sans-serif;
@@ -2745,7 +2749,7 @@ table.month .roll a.color3{color:#3662ac;}
 	font:700 14px/20px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .book-box h4 a{
-	color:#3a3a3c;
+	color:#393b3c;
 	text-decoration:underline;
 }
 .book-box h4 a:hover{text-decoration:none;}
@@ -2765,7 +2769,7 @@ table.month .roll a.color3{color:#3662ac;}
 }
 .article-list li:first-child{border:0;}
 .article-list a{
-	color:#3a3a3c;
+	color:#393b3c;
 	font:700 14px/20px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	text-decoration:underline;
 }
@@ -3035,7 +3039,7 @@ table.month .roll a.color3{color:#3662ac;}
 .items{
 	width:970px;
 	overflow:hidden;
-	color:#4f4f4f;
+	color:#444547;
 	font:italic 400 15px/18px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	margin:0 0 39px;
 }
@@ -3075,7 +3079,7 @@ table.month .roll a.color3{color:#3662ac;}
 .main-tabset a.active,
 .main-tabset a:hover{
 	text-decoration:none;
-	color:#444;
+	color:#444547;
 }
 .main-tab .tab-content{width:100%;}
 /* main-switch */
@@ -3176,7 +3180,7 @@ table.month .roll a.color3{color:#3662ac;}
 	font:italic 700 18px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .main-gallery .slogan-color2 strong{
-	color:#9b8a24;
+	color:#a39333;
 	font:italic 700 22px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .main-gallery .line-more{
@@ -3291,7 +3295,7 @@ table.month .roll a.color3{color:#3662ac;}
 #navigation li:hover{position:relative;}
 #navigation a{
 	float:left;
-	color:#3a3a3c;
+	color:#393b3c;
 	padding:0 0 0 6px;
 	cursor:pointer;
 }
@@ -3367,7 +3371,7 @@ table.month .roll a.color3{color:#3662ac;}
 #navigation .drop ul a{
 	padding:4px 10px 5px;
 	margin:0 !important;
-	color:#3a3a3c;
+	color:#393b3c;
 	background:none !important;
 	float:left;
 	width:178px;
@@ -3441,7 +3445,7 @@ table.month .roll a.color3{color:#3662ac;}
 #navigation .drop-inner ul a{
 	padding:6px 10px 7px;
 	margin:0 !important;
-	color:#3a3a3c;
+	color:#393b3c;
 	background:none !important;
 	float:left;
 	width:228px;
@@ -3640,7 +3644,7 @@ table.month .roll a.color3{color:#3662ac;}
 .unit-little .image-add img{display:block;}
 .unit-little .image-add span{
 	font:400 13px/16px "Trebuchet MS",Helvetica,Arial,sans-serif;
-	color:#3a3a3c;
+	color:#393b3c;
 	display:block;
 	padding:3px 4px 6px;
 }
@@ -3711,13 +3715,13 @@ table.month .roll a.color3{color:#3662ac;}
 .unit-little .image img{display:block;}
 .unit-little .image span{
 	font:400 13px/16px "Trebuchet MS",Helvetica,Arial,sans-serif;
-	color:#3a3a3c;
+	color:#393b3c;
 	display:block;
 	padding:3px 0 0 4px;
 }
 .unit-little .data p{margin:0 0 10px;}
 .unit-little .data p a{
-	color:#444;
+	color:#444547;
 	text-decoration:underline;
 }
 .unit-little .data p a:hover{text-decoration:none;}
@@ -3791,7 +3795,7 @@ table.month .roll a.color3{color:#3662ac;}
 	background:url(../images/bankstreet/bg-address-box.png) no-repeat 0 6px;
 	padding:0 0 5px 40px;
 	text-decoration:underline;
-	color:#444;
+	color:#444547;
 }
 .recital-holder address a:hover{text-decoration:none;}
 /* contact-info */
@@ -3854,7 +3858,7 @@ table.month .roll a.color3{color:#3662ac;}
 }
 .contact-box .email a{
 	float:left;
-	color:#444;
+	color:#444547;
 	font:400 16px/20px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	background:url(../images/bankstreet/icon-social.png) no-repeat 2px -328px;
 	padding:0 0 3px 26px;
@@ -4754,7 +4758,7 @@ table.month .roll a.color3{color:#3662ac;}
 	max-height:109px;
 	outline:none;
 	overflow:auto;
-	color:#7d7f83;
+	color:#656669;
 	font:italic 400 14px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .unit-form .row{
@@ -4994,13 +4998,13 @@ table.month .roll a.color3{color:#3662ac;}
 .scope{
 	font-size:15px;
 	line-height:21px;
-	color:#6f7073;
+	color:#656669;
 	padding:20px 0 17px;
 }
 .scope p{margin:0;}
 .scope p a{
 	text-decoration:underline;
-	color:#6f7073;
+	color:#656669;
 }
 .scope p a:hover{text-decoration:none;}
 /* society */
@@ -5321,7 +5325,7 @@ table.month .roll a.color3{color:#3662ac;}
 .map-text .accordion ul li{padding:2px 0 8px;}
 .map-text .accordion ul li a{padding:0 0 3px 19px;}
 .map-text .accordion ul li.active a{
-	color:#f05133;
+	color:#f05033;
 	background-position: 0 11px;
 }
 .map-text .accordion ul ul{
@@ -5494,7 +5498,7 @@ table.month .roll a.color3{color:#3662ac;}
 }
 .victor-list .photo img{float:left;}
 .victor-list .photo strong{
-	color:#3a3a3c;
+	color:#393b3c;
 	font:900 15px/30px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	float:left;
 	width:100%;
@@ -5522,7 +5526,7 @@ table.month .roll a.color3{color:#3662ac;}
 }
 .intro-roll a{
 	display:block;
-	color:#b2b2b4;
+	color:#b1b2b5;
 	background:url(../images/bankstreet/bg-intro-roll.gif) no-repeat;
 	height:77px;
 	padding:0 8px;
@@ -5644,7 +5648,7 @@ table.month .roll a.color3{color:#3662ac;}
 	padding:0 0 14px 12px;
 }
 .give-box ul a{
-	color:#4a4b4e;
+	color:#444547;
 	text-decoration:underline;
 }
 .give-box ul a:hover{text-decoration:none;}
@@ -5704,7 +5708,7 @@ table.month .roll a.color3{color:#3662ac;}
 }
 .unit-program p{margin:0;}
 .unit-program p a{
-	color:#4a4b4e;
+	color:#444547;
 	text-decoration:underline;
 }
 .unit-program p a:hover{text-decoration:none;}
@@ -6046,7 +6050,7 @@ table.month .roll a.color3{color:#3662ac;}
 .mac .how-list ul li{background-position:1px 7px;}
 .how-list li.active ul a,
 .how-list ul a{
-	color:#444;
+	color:#444547;
 	text-decoration:underline;
 	font:400 14px/18px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	background:none;
@@ -6248,14 +6252,14 @@ table.month .roll a.color3{color:#3662ac;}
 .course-box-holder{padding:20px 20px 48px;}
 .course-box h2{
 	margin:0 0 13px;
-	color:#3a3a3c;
+	color:#393b3c;
 	font:italic 900 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .course-table{
 	margin:0 0 38px;	padding:5px 0 0;	list-style:none;
 	border-top:2px solid #d7d7d9;
 }
-.course-table li{border-bottom:1px solid #e5e5e5;}
+.course-table li{border-bottom:1px solid #e6e6e6;}
 .course-table .wrap{
 	height:1%;
 	overflow:hidden;
@@ -6297,7 +6301,7 @@ table.month .roll a.color3{color:#3662ac;}
 .course-table li.active span a{color:#f05033 !important;}
 .course-table li.active span a{background-position:0 7px;}
 .course-table .slide-block{
-	border-top:1px solid #e5e5e5;
+	border-top:1px solid #e6e6e6;
 	background:#fafafa;
 	padding:8px 37px 9px 204px;
 	overflow:hidden;
@@ -6391,7 +6395,7 @@ table.month .roll a.color3{color:#3662ac;}
 /* footer-top */
 .footer-top{
 	width:100%;
-	background:#e1e1e1 url(../images/bankstreet/bg-footer-top.gif) repeat-x;
+	background:#e6e6e6 url(../images/bankstreet/bg-footer-top.gif) repeat-x;
 }
 .footer-holder{
 	width:970px;
@@ -6412,7 +6416,7 @@ table.month .roll a.color3{color:#3662ac;}
 .footer-column h3{
 	margin:0;
 	padding:0 0 9px;
-	color:#6d6e71;
+	color:#656669;
 	font:italic 700 18px/16px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .footer-column ul{
@@ -6420,7 +6424,7 @@ table.month .roll a.color3{color:#3662ac;}
 	font:400 13px/16px "Trebuchet MS",Helvetica,Arial,sans-serif;
 }
 .footer-column ul li{padding-bottom:4px;}
-.footer-column ul a{color:#6d6e71;}
+.footer-column ul a{color:#656669;}
 /* footer-bottom */
 .footer-bottom{
 	width:100%;
@@ -6509,7 +6513,7 @@ table.month .roll a.color3{color:#3662ac;}
 .light-gallery ul .text{
 	float:left;
 	width:300px;
-	color:#3a3a3c;
+	color:#393b3c;
 	padding:0 0 0 3px;
 }
 .light-gallery ul .text span{
@@ -6648,7 +6652,7 @@ a.link-next:hover{
 }
 /* news-list hover */
 .box-big .news-list a:hover .rubric{color: #f05033;}
-.box-big .news-list a:hover{color: #444;}
+.box-big .news-list a:hover{color: #444547;}
 /* COLORS:
 ---------------------------------------------------- */
 
