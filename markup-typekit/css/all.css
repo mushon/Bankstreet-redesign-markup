@@ -6700,3 +6700,307 @@ a.link-next:hover{
 .adults-2 .line-more,
 .adults-2 .register,
 .adults-2 .text-gallery {background-color:#feba12;}
+
+.popup2{
+	margin:0 auto;
+	width:743px;
+	background:url(../images/bankstreet/bg-popup-inner.png) no-repeat;
+}
+.popup2 .holder{
+	padding:70px 0;
+	background:url(../images/bankstreet/bg-popup-inner.png) no-repeat -1795px 100%;
+}
+.popup2 .frame{
+	width:100%;
+	background:url(../images/bankstreet/bg-popup-inner.png) repeat-y -867px 0;
+}
+.popup2 .frame:after{
+	display:block;
+	clear:both;
+	content:"";
+}
+.popup2 .wrap{
+	width:651px;
+	float:left;
+	margin:-24px 0;
+	padding:0 47px 0 45px;
+	position:relative;
+}
+.popup2 .close{
+	position:absolute;
+	top:-13px;
+	right:32px;
+	width:30px;
+	height:30px;
+	background:url(../images/bankstreet/bg-close.png) no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+.popup2 .line{
+	display: block;
+	height: 5px;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 100%;
+}
+.popup2 .head{
+	height:1%;
+	overflow:hidden;
+	padding:6px 10px 6px 34px;
+	background:url(../images/bankstreet/separator2.gif) repeat-x 0 50%;
+}
+.popup2 .head strong{
+	float:left;
+	color:#2fa393;
+	font:italic 700 15px/18px "Trebuchet MS",Helvetica,Arial,sans-serif;
+	background:#fff;
+	padding:0 5px;
+}
+.popup2 .head ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	color:#b1b2b5;
+	font:italic 700 15px/18px "Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+.popup2 .head ul li{
+	float:left;
+	margin:0 0 0 68px;
+	background:#fff;
+	padding:0 5px 0 5px;
+}
+.popup2 .head ul li:first-child{margin:0;}
+.popup2 .head ul .tick{
+	width:22px;
+	height:21px;
+	float:left;
+	text-indent:-9999px;
+	overflow:hidden;
+	background:url(../images/bankstreet/bg-stick.gif) no-repeat;
+}
+.popup2 .head ul .active .tick{background-position:0 -29px;}
+.popup2 .head ul .active {color:#2fa393;}
+.popup2 .head ul a{color:#656669;}
+.popup-form{
+	width:100%;
+	color:#444547;
+	font:italic 400 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+.popup-form .case{
+	padding:57px 10px 10px 39px;
+	min-height:328px;
+}
+.popup-form .title{
+	font:italic 700 28px/30px "Trebuchet MS",Helvetica,Arial,sans-serif;
+	color:#444547;
+	display:block;
+	margin:0 0 42px;
+}
+.popup-form p{margin:0 0 14px;}
+.popup-form p.sign{padding-top:42px;}
+.popup-form .row{
+	height:1%;
+	overflow:hidden;
+	margin-bottom:14px;
+}
+.popup-form .row-add{
+	height:1%;
+	overflow:hidden;
+	margin-bottom:11px;
+}
+.popup-form .row em{
+	float:left;
+	padding:3px 8px 0 0;
+}
+.popup-form .row em span{color:#f05033;}
+.popup-form .text-input,
+.popup-form .text-input2,
+.popup-form .text-input3,
+.popup-form .text-input4,
+.popup-form .text-input5,
+.popup-form .text-input6,
+.popup-form .text-input7,
+.popup-form .text-input8,
+.popup-form .text-input9,
+.popup-form .text-input10{
+	float:left;
+	background:url(../images/bankstreet/bg-text-input.png) no-repeat;
+	height:23px;
+	overflow:hidden;
+	padding:3px 3px 3px;
+	margin:0 7px 0 0;
+}
+.popup-form .text-input{
+	background-position:0 -176px;
+	width:32px;
+}
+.popup-form .text-input2{
+	background-position:0 -210px;
+	width:242px;
+}
+.popup-form .text-input3{
+	background-position:0 -243px;
+	width:282px;
+}
+.popup-form .text-input4{
+	background-position:0 -277px;
+	width:192px;
+	margin:0 12px 0 0;
+}
+.popup-form .text-input5{
+	background-position:0 -374px;
+	width:202px;
+}
+.popup-form .text-input6{
+	background-position:0 -310px;
+	width:412px;
+}
+.popup-form .text-input7{
+	background-position:0 -342px;
+	width:280px;
+	margin:0 20px 0 0;
+}
+.popup-form .text-input8{
+	background-position:-46px -176px;
+	width:62px;
+}
+.popup-form .text-input9{
+	background-position:-124px -176px;
+	width:149px;
+}
+.popup-form .text-input10{
+	background-position:-215px -277px;
+	width:102px;
+}
+.popup-form .text{
+	float:left;
+	padding:1px 0;
+	margin:0;
+	border:0;
+	width:100%;
+	outline:none;
+	background:none;
+	color:#939598;
+	font:400 16px "Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+.popup-form label,
+.popup-form .label{
+	float:left;
+	width:104px;
+	padding:3px 0 0;
+	margin:0 10px 0 0;
+	text-align:right;
+	color:#393b3c;
+	font:italic 700 15px/20px "Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+.popup-form label.add{
+	width:auto;
+	margin:0 9px 0 0;
+}
+.popup-form label.add2{
+	width:auto;
+	margin:0 30px 0 0;
+}
+.popup-form .select{
+	float:left;
+	width:198px;
+	margin:5px 14px 0 0;
+}
+.popup-form .radio-box{
+	height:1%;
+	overflow:hidden;
+}
+.popup-form .radio-box img{vertical-align:top;}
+.popup-form .radio{
+	width:16px;
+	height:16px;
+	float:left;
+	padding:0;
+	margin:8px 7px 0 1px;
+}
+.popup-form .select2{
+	float:left;
+	width:53px;
+	margin:5px 3px 0 0;
+}
+.popup-form .select3{
+	float:left;
+	width:53px;
+	margin:5px 30px 0 0;
+}
+.popup-form .slash{
+	float:left;
+	padding:2px 1px 0 0;
+}
+.popup-form .img{
+	float:left;
+	margin:4px 0 0 -4px;
+}
+.popup-form .btn-holder{
+	background:#eef0f2;
+	overflow:hidden;
+	height:1%;
+	padding:23px 38px 20px;
+}
+.popup-form .submit{
+	float:right;
+	padding:0 0 2px;
+	margin:0 0 0 16px;
+	border:0;
+	cursor:pointer;
+	color:#fff;
+	font:400 14px/18px "Trebuchet MS",Helvetica,Arial,sans-serif;
+	background:url(../images/bankstreet/btn-confirm.png) no-repeat;
+	width:147px;
+	height:21px;
+}
+.popup-form .submit:hover{background-position:0 -29px;}
+.popup-form .btn-holder a{
+	float:right;
+	text-decoration:underline;
+	color:#393b3c;
+	font:italic 400 15px/20px "Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+.popup-form .btn-holder a:hover{text-decoration:none;}
+.popup-form .check-box{
+	height:1%;
+	overflow:hidden;
+	padding:0 0 0 115px;
+	margin:-2px 0 33px;
+}
+.popup-form .checkbox{
+	float:left;
+	padding:0;
+	margin:3px 3px 0 0;
+	width:16px;
+	height:16px;
+}
+.popup-form .check-box label{
+	width:auto;
+	color:#393b3c;
+	padding:0;
+	font:italic 400 15px/18px "Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+.popup-form .check-box label a{
+	color:#393b3c;
+	text-decoration:underline;
+}
+.popup-form .check-box label a:hover{text-decoration:none;}
+.popup-form .total{
+	height:1%;
+	text-align:center;
+}
+.popup-form .total span{
+	color:#444547;
+	font:italic 400 28px/32px "Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+.popup-form .total strong{
+	color:#f05033;
+	font-weight:bold;
+}
+.popup-form .check{float:left;}
+.popup-form .check label{
+	width:auto;
+	padding:0;
+}

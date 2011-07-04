@@ -1,0 +1,169 @@
+.popup2{
+	margin:0 auto;
+	width:743px;
+	background:url(../images/bankstreet/bg-popup-inner.png) no-repeat;
+}
+.popup2 .holder{
+	padding:70px 0;
+	background:url(../images/bankstreet/bg-popup-inner.png) no-repeat -1795px 100%;
+}
+.popup2 .frame{
+	width:100%;
+	background:url(../images/bankstreet/bg-popup-inner.png) repeat-y -867px 0;
+}
+.popup2 .frame:after{	display:block;	clear:both;	content:"";}
+.popup2 .wrap{
+	width:651px;
+	float:left;
+	margin:-24px 0;
+	padding:0 47px 0 45px;
+	position:relative;
+}
+.popup2 .close{
+	position:absolute;	top:-13px;	right:32px;
+	width:30px;
+	height:30px;
+	background:url(../images/bankstreet/bg-close.png) no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+.popup2 .line{
+	display: block;
+	height: 5px;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 100%;
+}
+
+.popup2 .head{
+	height:1%;
+	overflow:hidden;
+	padding:6px 10px 6px 34px;
+	background:url(../images/bankstreet/separator2.gif) repeat-x 0 50%;
+}
+.popup2 .head strong{
+	float:left;
+	color:#2fa393;
+	font:italic 700 15px/18px "Trebuchet MS",Helvetica,Arial,sans-serif;
+	background:#fff;
+	padding:0 5px;
+}
+.popup-form{
+	width:100%;
+	color:#444547;
+	font:italic 400 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+.popup-form .case{
+	padding:57px 10px 10px 39px;
+	min-height:150px;
+}
+.popup-form .title{
+	font:italic 700 28px/30px "Trebuchet MS",Helvetica,Arial,sans-serif;
+	color:#444547;
+	display:block;
+	margin:0 0 42px;
+}
+.popup-form p{
+	margin:0 0 14px;
+}
+
+.popup-form .row{
+	height:1%;
+	overflow:hidden;
+	
+}
+.popup-form .row em{
+	float:left;
+	padding:3px 3px 0 0;
+}
+.popup-form .row em span{
+	color:#f05033;
+}
+
+.popup-form .text-input,
+.popup-form .text-input2{
+	float:left;
+	background:url(../images/bankstreet/bg-text-input.png) no-repeat;
+	height:23px;
+	overflow:hidden;
+	padding:3px 3px;
+}
+.popup-form .text-input{
+	background-position:0 -176px;
+	width:32px;
+}
+.popup-form .text-input2{
+	background-position:0 -210px;
+	width:242px;
+}
+.popup-form .text{
+	float:left;
+	padding:0;
+	margin:0;
+	border:0;
+	width:100%;
+	outline:none;
+	background:none;
+	color:#444547;
+	font:italic 400 20px/24px "Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+
+
+
+
+
+
+
+.popup-form .btn-holder{
+	background:#eef0f2;
+	overflow:hidden;
+	height:1%;
+	padding:10px;
+}
+.popup-form .submit{
+	float:right;
+	padding:0;
+	margin:0;
+	border:0;
+	cursor:pointer;
+	color:#fff;
+	font:400 14px/18px "Trebuchet MS",Helvetica,Arial,sans-serif;
+	background:url(../images/bankstreet/btn-confirm.png) no-repeat;
+	width:147px;
+	height:21px;
+}
+.popup-form .submit:hover{
+	background-position:0 -29px;
+}
+
+.popup-form .btn-holder a{
+	float:right;
+	text-decoration:underline;
+	color:#393b3c;
+	font:italic 400 15px/18px "Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+.popup-form .btn-holder a:hover{
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
