@@ -6773,11 +6773,10 @@ a.link-next:hover{
 .popup2 .head ul li:first-child{margin:0;}
 .popup2 .head ul .tick{
 	width:22px;
-	height:21px;
+	padding-top: 1px;
 	float:left;
-	text-indent:-9999px;
-	overflow:hidden;
-	background:url(../images/bankstreet/bg-stick.gif) no-repeat;
+	font-family: helvetica,arial,sans-serif;
+	font-size: 42px;
 }
 .popup2 .head ul .active .tick{background-position:0 -29px;}
 .popup2 .head ul .active {color:#2fa393;}
