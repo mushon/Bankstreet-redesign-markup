@@ -6751,11 +6751,17 @@ a.link-next:hover{
 }
 .popup2 .head strong{
 	float:left;
-	color:#2fa393;
 	font:italic 700 15px/18px "Trebuchet MS",Helvetica,Arial,sans-serif;
 	background:#fff;
 	padding:0 5px;
 }
+.popup2.children-2 .head strong{color:#2fa393;}
+.popup2.general .head strong{color:#f05033;}
+.popup2.adults-1 .head strong{color:#a39333;}
+.popup2.adults-2 .head strong{color:#feba12;}
+.popup2.adults-3 .head strong{color:#915f58;}
+.popup2.children-1 .head strong{color:#3662ac;}
+.popup2.children-3 .head strong{color:#86c140;}
 .popup2 .head ul{
 	margin:0;
 	padding:0;
@@ -6778,9 +6784,14 @@ a.link-next:hover{
 	font-family: helvetica,arial,sans-serif;
 	font-size: 42px;
 }
-.popup2 .head ul .active .tick{background-position:0 -29px;}
-.popup2 .head ul .active {color:#2fa393;}
 .popup2 .head ul a{color:#656669;}
+.popup2.children-2 .head ul .active {color:#2fa393;}
+.popup2.general .head ul .active {color:#f05033;}
+.popup2.adults-1 .head ul .active {color:#a39333;}
+.popup2.adults-2 .head ul .active {color:#feba12;}
+.popup2.adults-3 .head ul .active {color:#915f58;}
+.popup2.children-1 .head ul .active {color:#3662ac;}
+.popup2.children-3 .head ul .active {color:#86c140;}
 .popup-form{
 	width:100%;
 	color:#444547;
